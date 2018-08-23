@@ -1,17 +1,24 @@
 <template>
   <div>
-    <Header></Header>
+    <home-header></home-header>
+    <home-swiper></home-swiper>
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
+
+import HomeHeader from './components/Header'
+import HomeSwiper from './components/Swiper'
+
 export default {
-  components: {Header},
-  name: 'home'
+  components: {
+    HomeHeader,
+    HomeSwiper
+  },
+  name: 'Home'
 }
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
 
 </style>
